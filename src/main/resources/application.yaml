@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    write:
+      url: jdbc:mariadb://localhost:3307/mydevdb
+      username:
+      password:
+      driver-class-name: org.mariadb.jdbc.Driver
+    read:
+      url: jdbc:mariadb://localhost:3306/dev
+      username:
+      password:
+      driver-class-name: org.mariadb.jdbc.Driver
